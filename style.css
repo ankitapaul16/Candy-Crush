@@ -1,0 +1,97 @@
+body {
+  background-color: #c202c2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #fff700;
+  font-family: 'Allura', cursive;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.game-board {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.yellow {
+  background-color: #ffff02;
+}
+
+.green {
+  background-color: #00ff00;
+}
+
+.orange {
+  background-color: #ff4000;
+}
+
+.sea-green {
+  background-color: #02ff9e;
+}
+
+.blue {
+  background-color: #001aff;
+}
+
+.purple {
+  background-color: #ea00ff;
+}
+
+.indigo {
+  background-color: #00b7ff;
+}
+
+.deep-pink {
+  background-color: #ff026b;
+}
+
+.brick-red {
+  background-color: #ff0000;
+}
+/* Add more candy colors as needed */
+
+.score {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #000000;
+}
+
+.play-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 28px;
+  background-color: #02bb0e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.play-btn:hover {
+  background-color: #4c9aff;
+}
